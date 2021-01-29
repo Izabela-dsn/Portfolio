@@ -1,0 +1,104 @@
+.buttonsHeader {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 8.5rem;
+    height: 5rem;  
+}
+.buttonsHeader > a{
+    width: 18rem;
+    height: fit-content;
+    text-align: center;
+    margin-left: 1rem;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    background-color: #E9F4F8;
+
+    font: 400 17px Roboto ;
+    line-height: 2rem;
+
+    color: #000000;
+}
+a:hover{
+    background-color:#08565F;
+    color: white;
+    cursor: pointer;
+}
+.bemVindo{
+    display: flex;
+    align-content: space-between;
+    align-self: center;
+    padding-top: 5%;
+    padding-left: 11.5rem;
+   
+}
+.bemVindo h1{
+    width: fit-content;
+    font: 300 36px Roboto;
+    line-height: 3.125rem;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.bemVindo img{
+    display: flex;
+    align-self: center;
+    width: 18.75rem;
+    height: 18.75rem;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.footer {
+    width: fit-content;
+    margin-left: 31rem;
+    margin-top: 5rem;
+    font: 200 18px Roboto;
+    color: #08565F;
+    ;
+}
+.footer img{
+    margin: 0 0.2rem;
+}
+
+@media(max-width: 700px){
+    .buttonsHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding-left: 0;
+        margin-bottom: 5rem;
+        margin-left: 2.8rem;
+    }
+    .buttonsHeader > a{
+        margin-bottom: 1rem;
+    }
+    .bemVindo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 4rem;
+    }
+    .bemVindo h1{
+        font-size: 28px;
+        padding: 0;
+    }
+
+    .footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 7rem;
+    }
+
+
+
+}

@@ -99,3 +99,66 @@
 .footer img{
     margin: 0 0.2rem;
 }
+
+@media (max-width: 700px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding-left: 0;
+        margin-bottom: 5rem;
+        margin-left: 2.8rem;
+    }
+    .header > a{
+        margin-bottom: 1rem;
+    }
+    .header #goBackToLanding{
+        margin-left: 10rem;
+    }
+
+    .conteudo{
+        margin-top: 10rem;
+    }
+
+    .conteudo .titulo{
+        width: 96vw;
+        height: 4rem;
+        
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+ 
+    }
+
+    .titulo h2{
+        font-size: 35px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .conteudo .projects-row-one,
+    .conteudo .projects-row-two,
+    .conteudo .projects-row-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-left: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    .conteudo .projects-row-one p ,
+    .conteudo .projects-row-two p,
+    .conteudo .projects-row-three p{
+        margin-bottom: 2.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 7rem;
+    }
+
+}

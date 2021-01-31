@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    height: 5rem; 
+}
+.header > a {
+    width: 18rem;
+    height: fit-content;
+    text-align: center;
+    margin-left: 1rem;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    background-color: #E9F4F8;
+    font: 400 17px Roboto ;
+    line-height: 2rem;
+    color: #000000;
+}
+.header > a:hover{
+    background-color:#08565F;
+    color: white;
+    cursor: pointer;
+}
+.header #goBackToLanding{
+    border: none;
+    width: fit-content;
+    margin-right: 9.5rem;
+    border-radius: 2rem;
+}
+.header #goBackToLanding:hover{
+    background-color: #9ECBEB;
+}
+.header #goBackToLanding img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.conteudo > .titulo{
+    width: 50rem;
+    text-align: center;
+
+    margin-top: 4rem;
+    margin-left: 13rem;
+}
+.titulo h2{
+    font: 300 35px Roboto;
+    font-style: normal;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.conteudo .projects-row-one{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 7rem;
+}
+
+
+.conteudo .projects-row-one{
+    font: 300 24px Roboto;
+    font-style: normal;
+
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.footer {
+    width: fit-content;
+    margin-left: 31rem;
+    margin-top: 5rem;
+    font: 200 18px Roboto;
+    color: #08565F;
+}
+.footer img{
+    margin: 0 0.2rem;
+}
+
+@media (max-width: 700px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding-left: 0;
+        margin-bottom: 5rem;
+        margin-left: 2.8rem;
+    }
+    .header > a{
+        margin-bottom: 1rem;
+    }
+    .header #goBackToLanding{
+        margin-left: 10rem;
+    }
+
+    .conteudo{
+        margin-top: 10rem;
+    }
+
+    .conteudo .titulo{
+        width: 96vw;
+        height: 4rem;
+        
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+ 
+    }
+
+    .titulo h2{
+        font-size: 35px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .conteudo .projects-row-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-left: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    .conteudo .projects-row-one p{
+        margin-bottom: 2.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 7rem;
+    }
+
+}

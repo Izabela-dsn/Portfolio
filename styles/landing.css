@@ -68,6 +68,36 @@ a:hover{
     margin: 0 0.2rem;
 }
 
+@media(max-width: 1024px){
+    .buttonsHeader{
+        margin-left: 5rem;
+        padding-left: 0;
+    }
+
+    .bemVindo{
+        padding-left: 6rem;
+    }
+
+    .footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 42%;
+    }   
+}
+
+@media(max-width: 768px){
+    .buttonsHeader{
+        margin-left: 3rem;
+    }
+    .bemVindo{
+        padding-left: 3.5rem;
+    }
+    .footer{
+        margin-left: 38%;
+    }
+    
+}
+
 @media(max-width: 700px){
     .buttonsHeader{
         display: flex;
@@ -99,6 +129,25 @@ a:hover{
         margin-left: 7rem;
     }
 
+}
 
+@media(max-width: 425px){
+    .footer{
+        margin-left: 5.1rem;
+    }
+}
 
+@media(max-width: 375px){
+    .footer{
+        margin-left: 3.6rem;
+    }
+}
+@media(max-width: 320px){
+    .footer{
+        margin-left: 3.2rem;
+        font-size: 15px;
+    }
+    .bemVindo h1{
+        font-size: 26px;
+    }
 }

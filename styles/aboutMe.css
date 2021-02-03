@@ -135,6 +135,59 @@ a:hover{
     margin: 0 0.2rem;
 }
 
+@media(max-width: 1024px){
+    .header{
+        padding-left: 6.5rem;
+    }
+    .header #goBackToLanding{
+        margin-right: 2rem;
+    }
+    .imagem img{
+        margin-left: 2rem;
+    }
+    .sobre p{
+        padding-top: 1rem;
+    }
+    .conteudo .titulo{
+        margin-left: 22rem;
+    }
+    .footer{
+        margin-left: 22rem;
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        padding-left: 4rem;
+    }
+    .imagem{
+        margin-left: 3rem;
+    }
+    .imagem img{
+        height: 12rem;
+        width: 12rem;    
+    }
+    .sobre{
+        margin-right: -1.5rem ;
+    }
+    .sobre p{
+        font-size: 16px;
+        padding-top: 0.95rem;
+    }
+    .conteudo .titulo{
+        margin-left: 14rem;
+    }
+    
+    .conteudo .paixoes-row-one,
+    .conteudo .paixoes-row-two{
+        margin-left: 2.8rem;
+    }
+    .footer{
+        margin-left: 14rem;
+    }
+
+
+}
 
 @media (max-width: 700px){
     .header{
@@ -198,3 +251,57 @@ a:hover{
         margin-left: 7rem;
     }
 }
+
+@media(max-width: 425px){
+    .header{
+        margin-left: 2rem;
+    }
+    .header #goBackToLanding{
+        margin-right: 9rem;
+    }
+    .sobre{
+        margin-left: 1rem;
+    }
+    .conteudo .titulo{
+        margin-left: 4.5rem;
+    }
+    .footer{
+        margin-left: 4.9rem;
+    }
+}
+
+@media(max-width: 375px){
+    .header{
+        margin-left: 1.5rem;
+    }
+    .conteudo .titulo{
+        margin-left: 2.95rem;
+    }
+    .footer{
+        margin-left: 3.5rem;
+    }
+}
+
+@media(max-width: 346px){
+    .conteudo .titulo{
+        margin-left: 2.12rem;
+    }
+    .footer{
+        margin-left: 2.7rem;
+    }
+}
+
+@media(max-width: 320px){
+    .conteudo .titulo{
+        margin-left: 2.4rem;
+    }
+    .titulo h2{
+        line-height: 40px; /*espaço entre as linhas*/
+    }
+    .footer{
+        font-size: 16px;
+        margin-left: 2.8rem;
+    }
+
+}
+

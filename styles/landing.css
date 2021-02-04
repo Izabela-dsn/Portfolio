@@ -138,6 +138,15 @@ a:hover{
 }
 
 @media(max-width: 375px){
+    .buttonsHeader{
+        margin-left: 1rem;
+    }
+    .bemVindo{
+        padding-left: 2.5rem;
+    }
+    .bemVindo img{
+        margin-left: 3rem;
+    }
     .footer{
         margin-left: 3.6rem;
     }

@@ -292,11 +292,18 @@ a:hover{
 }
 
 @media(max-width: 320px){
+    .header > a{
+        width: 16rem;
+    }
     .conteudo .titulo{
         margin-left: 2.4rem;
     }
     .titulo h2{
         line-height: 40px; /*espaço entre as linhas*/
+    }
+    .conteudo .paixoes-row-one,
+    .conteudo .paixoes-row-two{
+        margin-left: 2rem;
     }
     .footer{
         font-size: 16px;

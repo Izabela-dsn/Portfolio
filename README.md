@@ -1,4 +1,12 @@
 # Portfólio
 
- Esse é meu potifólio para todos que queiram conhecer os meus trabalhos e um pouco sobre mim.
- https://izabela-dsn.github.io/Portfolio/
+## Do que foi feito? 	:eyes:
+* HTML
+* CSS
+
+## Qual a situação desse portfólio? :thinking:
+* Em andamento
+* Em constante atualização
+
+### Vem ver :point_right: https://izabela-dsn.github.io/Portfolio/ 
+

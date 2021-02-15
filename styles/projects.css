@@ -136,8 +136,6 @@
     .conteudo .projects-row-two{
         margin-left: 9rem;
     }
-    .conteudo .projects-row-three{
-    }
     .footer{
         margin-left: 14rem;
     }
@@ -236,9 +234,21 @@
 }
 
 @media(max-width: 320px){
+    .header{
+        margin-left: 1rem;
+    }
     .header > a{
         width: 16rem;
     }
+    .conteudo > .titulo{
+        margin-left: 0;
+    }
+    .conteudo .projects-row-one,
+    .conteudo .projects-row-two,
+    .conteudo .projects-row-three{
+        margin-left: 2rem;
+    }
+
     .footer{
         font-size: 16px;
         margin-left: 2.8rem;

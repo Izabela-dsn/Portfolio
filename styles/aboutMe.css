@@ -23,6 +23,8 @@ a:hover{
     background-color:#08565F;
     color: white;
     cursor: pointer;
+    transition: 0.4s;
+
 }
 .header #goBackToLanding{
     border: none;
@@ -32,6 +34,7 @@ a:hover{
 }
 .header #goBackToLanding:hover{
     background-color: #9ECBEB;
+    transition: 0.4s;
 }
 .header #goBackToLanding img{
     width: 2.5rem;

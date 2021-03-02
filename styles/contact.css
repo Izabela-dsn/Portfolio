@@ -1,4 +1,5 @@
 .header{
+    width: 100vw;
     display: flex;
     align-items: center;
     padding-top: 2rem;
@@ -23,6 +24,8 @@
     background-color:#08565F;
     color: white;
     cursor: pointer;
+    transition: 0.4s;
+
 }
 .header #goBackToLanding{
     border: none;
@@ -32,18 +35,21 @@
 }
 .header #goBackToLanding:hover{
     background-color: #9ECBEB;
+    transition: 0.4s;
+
 }
 .header #goBackToLanding img{
     width: 2.5rem;
     height: 2.5rem;
 }
 
-.conteudo  .titulo{
-    width: 50rem;
-    text-align: center;
+.conteudo{
+    width: 100vw;
+}
 
-    margin-top: 4rem;
-    margin-left: 13rem;
+.conteudo  .titulo{ 
+    text-align: center;
+    margin: 4rem 0 0 1rem;
 }
 .titulo h2{
     font: 300 35px Roboto;
@@ -61,9 +67,8 @@
     justify-content: space-between;
     text-align: center;
 
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    margin-left: 7rem;
+    
+    padding: 3rem 8rem 8rem 8rem;
 
     font: 300 24px Roboto;
     font-style: normal;
@@ -76,9 +81,8 @@
 }
 
 .footer {
-    width: fit-content;
-    margin-left: 31rem;
-    margin-top: 5rem;
+    width: 100vw;
+    text-align: center;
     font: 200 18px Roboto;
     color: #08565F;
 }

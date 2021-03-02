@@ -25,6 +25,7 @@ a:hover{
     background-color:#08565F;
     color: white;
     cursor: pointer;
+    transition: 0.4s;
 }
 .bemVindo{
     display: flex;
@@ -32,7 +33,7 @@ a:hover{
     align-self: center;
     padding-top: 5%;
     padding-left: 11.5rem;
-   
+   padding-bottom: 8rem;
 }
 .bemVindo h1{
     width: fit-content;
@@ -57,12 +58,11 @@ a:hover{
 }
 
 .footer {
-    width: fit-content;
-    margin-left: 31rem;
-    margin-top: 5rem;
+    width: 100vw;
+    text-align: center;
     font: 200 18px Roboto;
     color: #08565F;
-    ;
+    
 }
 .footer img{
     margin: 0 0.2rem;

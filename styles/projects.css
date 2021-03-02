@@ -23,6 +23,7 @@
     background-color:#08565F;
     color: white;
     cursor: pointer;
+    transition: 0.4s;
 }
 .header #goBackToLanding{
     border: none;
@@ -32,6 +33,7 @@
 }
 .header #goBackToLanding:hover{
     background-color: #9ECBEB;
+    transition: 0.4s;
 }
 .header #goBackToLanding img{
     width: 2.5rem;
@@ -39,11 +41,10 @@
 }
 
 .conteudo > .titulo{
-    width: 50rem;
+    width: 100vw;
     text-align: center;
-
     margin-top: 4rem;
-    margin-left: 15rem;
+   
 }
 .titulo h2{
     font: 300 35px Roboto;
@@ -90,9 +91,8 @@
 }
 
 .footer {
-    width: fit-content;
-    margin-left: 31rem;
-    margin-top: 5rem;
+    width: 100vw;
+    text-align: center;
     font: 200 18px Roboto;
     color: #08565F;
 }

@@ -1,6 +1,7 @@
 .buttonsHeader {
     display: flex;
     align-items: center;
+    width: 100vw;
     padding-top: 2rem;
     padding-left: 8.5rem;
     height: 5rem;  
@@ -28,6 +29,7 @@ a:hover{
     transition: 0.4s;
 }
 .bemVindo{
+    width: 100vw;
     display: flex;
     align-content: space-between;
     align-self: center;
@@ -70,30 +72,28 @@ a:hover{
 
 @media(max-width: 1024px){
     .buttonsHeader{
-        margin-left: 5rem;
-        padding-left: 0;
+        padding: 2rem 2rem 0 2rem;
     }
-
     .bemVindo{
-        padding-left: 6rem;
-    }
-
+        padding: 5% 2rem 7rem 2rem;
+    } 
     .footer{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 42%;
-    }   
+        width: 100vw;
+        text-align: center;
+    }
 }
 
 @media(max-width: 768px){
     .buttonsHeader{
-        margin-left: 3rem;
+        padding-left: 2rem;
     }
+
     .bemVindo{
-        padding-left: 3.5rem;
+        padding: 4rem 2rem 5.5rem 2rem;
+        
     }
     .footer{
-        margin-left: 38%;
+        padding-left: 1rem;
     }
     
 }
@@ -103,10 +103,7 @@ a:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        padding-left: 0;
-        margin-bottom: 5rem;
-        margin-left: 2.8rem;
+        margin: 0 0 3rem 0;
     }
     .buttonsHeader > a{
         margin-bottom: 1rem;
@@ -116,60 +113,67 @@ a:hover{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding-left: 4rem;
+        
     }
     .bemVindo h1{
         font-size: 28px;
         padding: 0;
+        
     }
-
-    .footer{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 7rem;
-    }
-
 }
 
 @media(max-width: 425px){
-    .footer{
-        margin-left: 5.1rem;
+    .bemVindo{
+        padding-bottom: 2rem;
+    }
+    .bemVindo img{
+        padding-left: 1rem;
+        width: 18rem;
+        height: 18rem;
     }
 }
 
 @media(max-width: 375px){
-   
     .buttonsHeader{
-        margin-left: 1rem;
+        padding-left: 1rem;
     }
-    .bemVindo{
-        padding-left: 2.5rem;
+    .buttonsHeader > a{
+        width: 16rem;
     }
+    
     .bemVindo img{
         margin-left: 1.5rem;
         width: 16rem;
         height: 16rem;
     }
     .footer{
-        margin-left: 3.6rem;
+        font-size: 16px;
     }
 }
 
 @media(max-width: 346px){
-    .footer{
-        margin-left: 2rem;
+    .buttonsHeader > a{
+        width: 14rem;
     }
+    .bemVindo h1{
+        font-size: 26px;
+    }
+    
 }
 
 @media(max-width: 320px){
     .ButtonsHeader > a{
-        width: 16rem;
+        width: 12rem;
     }
-    .footer{
-        margin-left: 3.2rem;
-        font-size: 15px;
+    bemVindo img{
+        margin-left: 1.5rem;
+        width: 14rem;
+        height: 14rem;
     }
     .bemVindo h1{
-        font-size: 26px;
+        font-size: 24px;
+    }
+    .footer{
+        font-size: 14px;
     }
 }

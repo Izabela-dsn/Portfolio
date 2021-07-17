@@ -15,6 +15,9 @@ body {
   height: 90vh;
   background: #e9f4f8;
 }
+main {
+  width: 100vw;
+}
 
 header {
   width: 100vw;
@@ -44,9 +47,37 @@ nav .buttons-menu {
 
   color: #000000;
 }
-a:hover {
+nav a.buttons-menu:hover {
   background-color: #08565f;
   color: white;
   cursor: pointer;
   transition: 0.5s;
+}
+
+#goBackToLanding {
+  padding: 0.3rem;
+  background: #9ecbeb;
+  clip-path: circle();
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 3rem;
+
+  font: 300 35px Roboto;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.footer {
+  width: 100vw;
+  display: inline-block;
+  margin-top: 6rem;
+  padding-left: 2rem;
+
+  text-align: center;
+  font: 200 20px Roboto;
+  color: #08565f;
 }

@@ -1,8 +1,3 @@
-#goBackToLanding {
-  padding: 0.3rem;
-  background: #9ecbeb;
-  clip-path: circle();
-}
 main {
   width: 100vw;
 }
@@ -33,16 +28,6 @@ main {
   padding: 2rem 2rem 2rem 7rem;
 }
 
-.titulo {
-  text-align: center;
-  margin-top: 3rem;
-
-  font: 300 35px Roboto;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-
-  color: #000000;
-}
 .conteudo .paixoes-row-one {
   margin-top: 3rem;
 }
@@ -64,16 +49,7 @@ main {
   letter-spacing: 0.05em;
   margin-top: 2rem;
 }
-.footer {
-  width: 100vw;
-  display: inline-block;
-  margin-top: 6rem;
-  padding-left: 2rem;
 
-  text-align: center;
-  font: 200 20px Roboto;
-  color: #08565f;
-}
 @media (max-width: 1024px) {
   .header {
     padding-left: 6.5rem;

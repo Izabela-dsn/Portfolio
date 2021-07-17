@@ -11,73 +11,78 @@
 
     <link rel="stylesheet" href="./styles/aboutMe.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="./assets/fancy-plants.png" type="image/x-icon">
 
 </head>  
 
 <body>
-    <div class="header">
-        <a id="goBackToLanding" href="index.html">
-            <img src="./assets/goBack.svg" alt="Voltar a pagina inicial">
-        </a>
-        <a href="projects.html">Meus Projetos</a>
-        <a href="contact.html">Entre em contato comigo</a>
-    </div>
+    <header>
+        <nav>
+            <a id="goBackToLanding" href="index.html">
+                <img src="./assets/arrow-left.svg" alt="Voltar a pagina inicial"/>
+            </a>
+            <a href="projects.html" class="buttons-menu">Meus Projetos</a>
+            <a href="contact.html" class="buttons-menu">Entre em contato comigo</a>
+        </nav>
+    </header>
 
-    <div class="sobre">
-        <img src="./assets/humaaans.png" alt="menina com cabelo solto em forma de figura">
-        <p>
-            Meu nome é Izabela da Silva Neves sou estudante da UFU no curso de Engenharia de Computação.<br/>
-            </br>
-            Mostro aqui meus trabalhos que juntam minhas paixões por design e tecnologia.
-            </br>Tenho 20 anos e muita vontade de explorar e aprender o que me chama atenção.
-        </p>
-    </div>
-
-    <div class="conteudo">
-        <div class="titulo">
-            <h2>Minhas paixões:</h2>
+    <main>
+        <div class="sobre">
+            <img src="./assets/humaaans.png" alt="menina com cabelo solto em forma de figura">
+            <p>
+                Meu nome é Izabela da Silva Neves sou estudante da UFU no curso de Engenharia de Computação.<br/>
+                </br>
+                Mostro aqui meus trabalhos que juntam minhas paixões por design e tecnologia.
+                </br>Tenho 20 anos e muita vontade de explorar e aprender o que me chama atenção.
+            </p>
         </div>
-        
-        <div class="paixoes-row-one">
-            <div>
-                <img name="cachorros" src="./assets/dogs.svg" alt="Cachorros"/> 
-                <p>Os animais</p>
-            </div>
+    
+        <div class="conteudo">
+            <h2 class="titulo">Minhas paixões:</h2>
             
-            <div>
-                <img name="nerd" src="./assets/nerd.svg" alt="Quadrinhos"/> 
-                <p>A cultura Nerd/Geek</p>
-            </div>
-        
-            <div>
-                <img name="technologia" src="./assets/tech.svg" alt="teclado iluminado"/> 
-                <p>Technologia</p>
-            </div>
-        </div> 
+            <div class="paixoes-row-one">
+                <div class="paixao">
+                    <img name="cachorros" src="./assets/dogs.svg" alt="Cachorros"/> 
+                    <p>Os animais</p>
+                </div>
+                
+                <div class="paixao">
+                    <img name="nerd" src="./assets/nerd.svg" alt="Quadrinhos"/> 
+                    <p>A cultura Nerd/Geek</p>
+                </div>
             
-        <div class="paixoes-row-two">
-            <div>
-                <img name="Cinema" src="./assets/movies.svg" alt="Cinema"/> 
-                <p>Cinema</p>
+                <div class="paixao">
+                    <img name="technologia" src="./assets/tech.svg" alt="teclado iluminado"/> 
+                    <p>Technologia</p>
+                </div>
+            </div> 
+                
+            <div class="paixoes-row-two">
+                <div class="paixao">
+                    <img name="Cinema" src="./assets/movies.svg" alt="Cinema"/> 
+                    <p>Cinema</p>
+                </div>
+            
+                <div class="paixao">
+                    <img name="livros" src="./assets/books.svg" alt="livros"/> 
+                    <p>Livros</p>
+                </div>
+            
+                <div class="paixao">
+                    <img name="escrever" src="./assets/write.svg" alt="escrever"/> 
+                    <p>Escrever livros</p>
+                </div>
             </div>
-        
-            <div>
-                <img name="livros" src="./assets/books.svg" alt="livros"/> 
-                <p>Livros</p>
-            </div>
-        
-            <div>
-                <img name="escrever" src="./assets/write.svg" alt="escrever"/> 
-                <p>Escrever livros</p>
-            </div>
+    
         </div>
-
-    </div>
+    </main>
 
     
-    <div class="footer">
-        &lt; FEITO COM  <img src="./assets/heart.svg" alt="coração"/>  POR IZABELA &gt;
-    </div>
+    <footer class="footer">
+        <span>
+            &lt; FEITO COM <img src="./assets/heart.svg" alt="coração"/>  POR IZABELA /&gt;
+        </span>
+    </footer>
 </body>
 
 </html>     

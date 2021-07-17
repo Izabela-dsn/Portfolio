@@ -1,38 +1,3 @@
-header {
-  width: 100vw;
-  margin-bottom: 5rem;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2rem;
-}
-
-nav > a {
-  width: 18rem;
-  height: fit-content;
-  text-align: center;
-  margin-left: 1rem;
-  border: 0.5px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;
-
-  background-color: #e9f4f8;
-
-  font: 400 17px Roboto;
-  line-height: 2rem;
-
-  color: #000000;
-}
-a:hover {
-  background-color: #08565f;
-  color: white;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
 main {
   width: 100vw;
 }
@@ -72,7 +37,7 @@ main {
   font: 200 20px Roboto;
   color: #08565f;
 }
-
+/*
 @media (max-width: 1024px) {
   .buttonsHeader {
     padding: 2rem 2rem 0 2rem;
@@ -175,3 +140,4 @@ main {
     font-size: 14px;
   }
 }
+*/

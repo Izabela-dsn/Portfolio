@@ -22,7 +22,22 @@
   height: 18.75rem;
   margin: 0 2rem;
 }
+@media (max-width: 720px) {
+  .bemVindo {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
 
+@media (max-width: 330px) {
+  .bemVindo h1 {
+    font-size: 30px;
+  }
+  .bemVindo img {
+    width: 16rem;
+    height: auto;
+  }
+}
 /*
 @media (max-width: 1024px) {
   .buttonsHeader {

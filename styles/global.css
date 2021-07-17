@@ -81,3 +81,37 @@ nav a.buttons-menu:hover {
   font: 200 20px Roboto;
   color: #08565f;
 }
+
+@media (max-width: 720px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  nav .buttons-menu {
+    width: 30rem;
+    font: 400 24px Roboto;
+  }
+  .footer {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav .buttons-menu {
+    width: 20rem;
+    font: 400 24px Roboto;
+  }
+}
+
+@media (max-width: 330px) {
+  nav .buttons-menu {
+    width: 16rem;
+    font: 400 20px Roboto;
+  }
+  .footer {
+    font-size: 18px;
+    padding-left: 1rem;
+  }
+}

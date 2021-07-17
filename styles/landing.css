@@ -10,7 +10,7 @@ header nav {
   padding-top: 2rem;
 }
 
-nav a {
+nav > a {
   width: 18rem;
   height: fit-content;
   text-align: center;

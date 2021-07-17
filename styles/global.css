@@ -103,12 +103,18 @@ nav a.buttons-menu:hover {
     width: 20rem;
     font: 400 24px Roboto;
   }
+  .titulo {
+    font: 300 30px Roboto;
+  }
 }
 
 @media (max-width: 330px) {
   nav .buttons-menu {
     width: 16rem;
     font: 400 20px Roboto;
+  }
+  .titulo {
+    font-size: 26px;
   }
   .footer {
     font-size: 18px;

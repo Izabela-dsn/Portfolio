@@ -19,134 +19,13 @@
 .footer {
   margin-top: 2rem;
 }
-/*
-@media (max-width: 1024px) {
-  .header {
-    padding-left: 6.5rem;
-  }
-  .header #goBackToLanding {
-    margin-right: 2rem;
-  }
-  .conteudo .titulo {
-    margin-left: 4rem;
-    margin-bottom: 4rem;
-  }
-  .footer {
-    margin-left: 22rem;
-  }
-}
 
-@media (max-width: 768px) {
-  .header {
-    padding-left: 4rem;
-  }
-  .conteudo .titulo {
-    width: fit-content;
-    margin-left: 9.5rem;
-  }
-  .conteudo .contacts-row-one {
-    margin-left: 3rem;
-  }
-  .footer {
-    margin-left: 38%;
-  }
-}
-
-@media (max-width: 700px) {
-  .header {
-    display: flex;
+@media (max-width: 720px) {
+  .contacts-row-one {
     flex-direction: column;
     align-items: center;
-
-    padding-left: 0;
-    margin-bottom: 5rem;
-    margin-left: 2.8rem;
   }
-  .header > a {
-    margin-bottom: 1rem;
-  }
-  .header #goBackToLanding {
-    margin-left: 10rem;
-  }
-
-  .conteudo {
-    margin-top: 10rem;
-  }
-
-  .conteudo .titulo {
-    width: 96vw;
-    height: 4rem;
-
-    margin-top: 2rem;
-    margin-left: 0.5rem;
-  }
-
-  .titulo h2 {
-    font-size: 35px;
-    padding-left: 1rem;
-    padding-top: 1rem;
-  }
-
-  .conteudo .contacts-row-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    margin-left: 3.5rem;
-    margin-bottom: 0;
-  }
-
-  .conteudo .contacts-row-one p {
-    margin-bottom: 2.5rem;
-    margin-top: 0.5rem;
-  }
-
-  .footer {
-    margin-top: 2rem;
+  .contact {
     margin-bottom: 2rem;
-    margin-left: 7rem;
   }
 }
-
-@media (max-width: 425px) {
-  .header #goBackToLanding {
-    margin-left: 3rem;
-  }
-  .conteudo .titulo h2 {
-    line-height: 40px;
-  }
-  .footer {
-    margin-left: 5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .header {
-    margin-left: 1rem;
-  }
-  .header > a {
-    width: 16rem;
-  }
-  .conteudo .titulo {
-    margin-left: 0;
-  }
-  .conteudo .contacts-row-one {
-    margin-left: 3rem;
-  }
-  .footer {
-    font-size: 18px;
-    margin-left: 3.5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .conteudo .contacts-row-one {
-    margin-left: 2rem;
-  }
-  .footer {
-    font-size: 16px;
-    margin-left: 2.5rem;
-  }
-}
-*/

@@ -1,224 +1,152 @@
-.header{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    padding-left: 7rem;
-    height: 5rem; 
+.contacts-row-one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: center;
+
+  padding: 3rem 8rem 8rem 8rem;
 }
-.header > a {
-    width: 18rem;
-    height: fit-content;
-    text-align: center;
-    margin-left: 1rem;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
+.contact {
+  font: 300 24px Roboto;
 
-    background-color: #E9F4F8;
-    font: 400 17px Roboto ;
-    line-height: 2rem;
-    color: #000000;
-}
-.header > a:hover{
-    background-color:#08565F;
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
-
-}
-.header #goBackToLanding{
-    border: none;
-    width: fit-content;
-    margin-right: 9.5rem;
-    border-radius: 2rem;
-}
-.header #goBackToLanding:hover{
-    background-color: #9ECBEB;
-    transition: 0.4s;
-
-}
-.header #goBackToLanding img{
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.conteudo{
-    width: 100vw;
-}
-
-.conteudo  .titulo{ 
-    text-align: center;
-    margin: 4rem 0 0 1rem;
-}
-.titulo h2{
-    font: 300 35px Roboto;
-    font-style: normal;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.05em;
-
-    color: #000000;
-}
-
-.conteudo .contacts-row-one{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: center;
-
-    
-    padding: 3rem 8rem 8rem 8rem;
-
-    font: 300 24px Roboto;
-    font-style: normal;
-
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-    margin-top: 1rem;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 1rem;
 }
 
 .footer {
-    width: 100vw;
-    text-align: center;
-    font: 200 18px Roboto;
-    color: #08565F;
+  margin-top: 2rem;
 }
-.footer img{
-    margin: 0 0.2rem;
-}
-
-@media( max-width: 1024px){
-    .header{
-        padding-left: 6.5rem;
-    }
-    .header #goBackToLanding{
-        margin-right: 2rem;
-    }
-    .conteudo .titulo{
-        margin-left: 4rem;
-        margin-bottom: 4rem;
-    }
-    .footer{
-        margin-left: 22rem;
-    }
+/*
+@media (max-width: 1024px) {
+  .header {
+    padding-left: 6.5rem;
+  }
+  .header #goBackToLanding {
+    margin-right: 2rem;
+  }
+  .conteudo .titulo {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+  }
+  .footer {
+    margin-left: 22rem;
+  }
 }
 
-@media (max-width: 768px){
-    .header{
-        padding-left: 4rem;
-    }
-    .conteudo .titulo{
-        width: fit-content;
-        margin-left: 9.5rem;
-    }
-    .conteudo .contacts-row-one{
-        margin-left: 3rem;
-    }
-    .footer {
-        margin-left: 38%;
-    }  
+@media (max-width: 768px) {
+  .header {
+    padding-left: 4rem;
+  }
+  .conteudo .titulo {
+    width: fit-content;
+    margin-left: 9.5rem;
+  }
+  .conteudo .contacts-row-one {
+    margin-left: 3rem;
+  }
+  .footer {
+    margin-left: 38%;
+  }
 }
 
-@media (max-width: 700px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        padding-left: 0;
-        margin-bottom: 5rem;
-        margin-left: 2.8rem;
-    }
-    .header > a{
-        margin-bottom: 1rem;
-    }
-    .header #goBackToLanding{
-        margin-left: 10rem;
-    }
+@media (max-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .conteudo{
-        margin-top: 10rem;
-    }
+    padding-left: 0;
+    margin-bottom: 5rem;
+    margin-left: 2.8rem;
+  }
+  .header > a {
+    margin-bottom: 1rem;
+  }
+  .header #goBackToLanding {
+    margin-left: 10rem;
+  }
 
-    .conteudo .titulo{
-        width: 96vw;
-        height: 4rem;
-        
-        margin-top: 2rem;
-        margin-left: 0.5rem;
- 
-    }
+  .conteudo {
+    margin-top: 10rem;
+  }
 
-    .titulo h2{
-        font-size: 35px;
-        padding-left: 1rem;
-        padding-top: 1rem;
-    }
-    
-    .conteudo .contacts-row-one{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+  .conteudo .titulo {
+    width: 96vw;
+    height: 4rem;
 
-        margin-left: 3.5rem;
-        margin-bottom: 0;
-    }
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+  }
 
-    .conteudo .contacts-row-one p{
-        margin-bottom: 2.5rem;
-        margin-top: 0.5rem;
-    }
+  .titulo h2 {
+    font-size: 35px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
 
-    .footer{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 7rem;
-    }
+  .conteudo .contacts-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
+    margin-left: 3.5rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .contacts-row-one p {
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+  }
 }
 
-@media (max-width: 425px){
-    .header #goBackToLanding{
-        margin-left: 3rem;
-    }
-    .conteudo .titulo h2{
-        line-height: 40px; 
-    }
-    .footer{
-        margin-left: 5rem;
-    }
+@media (max-width: 425px) {
+  .header #goBackToLanding {
+    margin-left: 3rem;
+  }
+  .conteudo .titulo h2 {
+    line-height: 40px;
+  }
+  .footer {
+    margin-left: 5rem;
+  }
 }
 
-@media (max-width: 375px){
-    .header{
-        margin-left: 1rem;
-    }
-    .header > a{
-        width: 16rem;
-    }
-    .conteudo .titulo{
-        margin-left: 0;
-    }
-    .conteudo .contacts-row-one{
-        margin-left: 3rem;    
-    }
-    .footer{
-        font-size: 18px;
-        margin-left: 3.5rem;
-    }
+@media (max-width: 375px) {
+  .header {
+    margin-left: 1rem;
+  }
+  .header > a {
+    width: 16rem;
+  }
+  .conteudo .titulo {
+    margin-left: 0;
+  }
+  .conteudo .contacts-row-one {
+    margin-left: 3rem;
+  }
+  .footer {
+    font-size: 18px;
+    margin-left: 3.5rem;
+  }
 }
 
-@media (max-width: 320px){
-    .conteudo .contacts-row-one{
-        margin-left: 2rem;    
-    }
-    .footer{
-        font-size: 16px;
-        margin-left: 2.5rem;
-    }
-    
+@media (max-width: 320px) {
+  .conteudo .contacts-row-one {
+    margin-left: 2rem;
+  }
+  .footer {
+    font-size: 16px;
+    margin-left: 2.5rem;
+  }
 }
+*/

@@ -1,179 +1,177 @@
-.buttonsHeader {
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    padding-top: 2rem;
-    padding-left: 8.5rem;
-    height: 5rem;  
+header {
+  width: 100vw;
+  margin-bottom: 5rem;
 }
-.buttonsHeader > a{
-    width: 18rem;
-    height: fit-content;
-    text-align: center;
-    margin-left: 1rem;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
 
-    background-color: #E9F4F8;
-
-    font: 400 17px Roboto ;
-    line-height: 2rem;
-
-    color: #000000;
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
 }
-a:hover{
-    background-color:#08565F;
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.bemVindo{
-    width: 100vw;
-    display: flex;
-    align-content: space-between;
-    align-self: center;
-    padding-top: 5%;
-    padding-left: 11.5rem;
-   padding-bottom: 8rem;
-}
-.bemVindo h1{
-    width: fit-content;
-    font: 300 36px Roboto;
-    line-height: 3.125rem;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
+nav a {
+  width: 18rem;
+  height: fit-content;
+  text-align: center;
+  margin-left: 1rem;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
 
-    color: #000000;
+  background-color: #e9f4f8;
+
+  font: 400 17px Roboto;
+  line-height: 2rem;
+
+  color: #000000;
 }
-.bemVindo img{
-    display: flex;
-    align-self: center;
-    width: 18.75rem;
-    height: 18.75rem;
+a:hover {
+  background-color: #08565f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-    margin-left: 2rem;
-    margin-right: 2rem;
+main {
+  width: 100vw;
+}
+
+.bemVindo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.bemVindo h1 {
+  font: 300 36px Roboto;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.bemVindo img {
+  display: flex;
+  align-self: center;
+  width: 18.75rem;
+  height: 18.75rem;
+  margin: 0 2rem;
 }
 
 .footer {
+  width: 100vw;
+  display: inline-block;
+  margin-top: 6rem;
+  padding-left: 2rem;
+
+  text-align: center;
+  font: 200 20px Roboto;
+  color: #08565f;
+}
+
+@media (max-width: 1024px) {
+  .buttonsHeader {
+    padding: 2rem 2rem 0 2rem;
+  }
+  .bemVindo {
+    padding: 5% 2rem 7rem 2rem;
+  }
+  .footer {
     width: 100vw;
     text-align: center;
-    font: 200 18px Roboto;
-    color: #08565F;
-    
-}
-.footer img{
-    margin: 0 0.2rem;
+  }
 }
 
-@media(max-width: 1024px){
-    .buttonsHeader{
-        padding: 2rem 2rem 0 2rem;
-    }
-    .bemVindo{
-        padding: 5% 2rem 7rem 2rem;
-    } 
-    .footer{
-        width: 100vw;
-        text-align: center;
-    }
+@media (max-width: 768px) {
+  .buttonsHeader {
+    padding-left: 2rem;
+  }
+
+  .bemVindo {
+    padding: 4rem 2rem 5.5rem 2rem;
+  }
+  .footer {
+    padding-left: 1rem;
+  }
 }
 
-@media(max-width: 768px){
-    .buttonsHeader{
-        padding-left: 2rem;
-    }
-
-    .bemVindo{
-        padding: 4rem 2rem 5.5rem 2rem;
-        
-    }
-    .footer{
-        padding-left: 1rem;
-    }
-    
+@media (max-width: 700px) {
+  .buttonsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 3rem 0;
+  }
+  .buttonsHeader > a {
+    margin-bottom: 1rem;
+  }
+  .bemVindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bemVindo h1 {
+    font-size: 28px;
+    padding: 0;
+  }
 }
 
-@media(max-width: 700px){
-    .buttonsHeader{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 0 3rem 0;
-    }
-    .buttonsHeader > a{
-        margin-bottom: 1rem;
-    }
-    .bemVindo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-    .bemVindo h1{
-        font-size: 28px;
-        padding: 0;
-        
-    }
+@media (max-width: 425px) {
+  .bemVindo {
+    padding-bottom: 2rem;
+  }
+  .bemVindo img {
+    padding-left: 1rem;
+    width: 18rem;
+    height: 18rem;
+  }
 }
 
-@media(max-width: 425px){
-    .bemVindo{
-        padding-bottom: 2rem;
-    }
-    .bemVindo img{
-        padding-left: 1rem;
-        width: 18rem;
-        height: 18rem;
-    }
+@media (max-width: 375px) {
+  .buttonsHeader {
+    padding-left: 1rem;
+  }
+  .buttonsHeader > a {
+    width: 16rem;
+  }
+
+  .bemVindo img {
+    margin-left: 1.5rem;
+    width: 16rem;
+    height: 16rem;
+  }
+  .footer {
+    font-size: 16px;
+  }
 }
 
-@media(max-width: 375px){
-    .buttonsHeader{
-        padding-left: 1rem;
-    }
-    .buttonsHeader > a{
-        width: 16rem;
-    }
-    
-    .bemVindo img{
-        margin-left: 1.5rem;
-        width: 16rem;
-        height: 16rem;
-    }
-    .footer{
-        font-size: 16px;
-    }
+@media (max-width: 346px) {
+  .buttonsHeader > a {
+    width: 14rem;
+  }
+  .bemVindo h1 {
+    font-size: 26px;
+  }
 }
 
-@media(max-width: 346px){
-    .buttonsHeader > a{
-        width: 14rem;
-    }
-    .bemVindo h1{
-        font-size: 26px;
-    }
-    
-}
-
-@media(max-width: 320px){
-    .ButtonsHeader > a{
-        width: 12rem;
-    }
-    bemVindo img{
-        margin-left: 1.5rem;
-        width: 14rem;
-        height: 14rem;
-    }
-    .bemVindo h1{
-        font-size: 24px;
-    }
-    .footer{
-        font-size: 14px;
-    }
+@media (max-width: 320px) {
+  .ButtonsHeader > a {
+    width: 12rem;
+  }
+  bemVindo img {
+    margin-left: 1.5rem;
+    width: 14rem;
+    height: 14rem;
+  }
+  .bemVindo h1 {
+    font-size: 24px;
+  }
+  .footer {
+    font-size: 14px;
+  }
 }

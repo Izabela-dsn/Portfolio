@@ -29,16 +29,16 @@ header nav {
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
+  border-bottom: 0.1px solid #000000;
+  box-shadow: #9ecbeb;
 }
 
 nav .buttons-menu {
-  width: 18rem;
+  width: max-content;
   height: fit-content;
   text-align: center;
   margin-left: 1rem;
-  border: 0.5px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;
+  /*border-bottom: 0.5px solid #000000;*/
 
   background-color: #e9f4f8;
 

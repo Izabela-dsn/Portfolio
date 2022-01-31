@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://unsplash.com/photos/WiONHd_zYI4);
+}
+
+main {
+  min-height: 100vh;
+  min-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/fundo.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mensagem {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 1rem;
+  color: whitesmoke;
+  font: 400 14px Roboto;
+}
+
+.mensagem h1,
+.mensagem h2 {
+  padding-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links img {
+  width: 75%;
+}
+
+footer {
+  margin: 0 auto;
+
+  text-align: center;
+  font: 200 20px Roboto;
+  color: #08565f;
+}

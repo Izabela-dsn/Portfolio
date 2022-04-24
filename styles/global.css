@@ -1,123 +1,56 @@
+:root{
+  --dark-blue: #155283;
+  --light-blue: #9ecbeb;
+  --gradient-blue: linear-gradient(360deg, #155A83 0%, #3184b600 96.35%);
+
+  --font-h2: 700 26px 'Space Grotesk', sans-serif;
+  --font-a-nav: 400 18px 'Space Grotesk', sans-serif;
+  --font-p-banner: 400 30px 'Space Grotesk', sans-serif;
+  --font-p-card: 300 18px 'Space Grotesk', sans-serif;
+  --font-a-projects: 300 16px 'Space Grotesk', sans-serif;
+  --font-p-footer: 300 14px 'Space Grotesk', sans-serif;
+
+
+  
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--dark-blue);
+  scroll-behavior: smooth;
+
+  /* scrollbar */
+  /* Works on Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark-blue);
 }
-html {
-  font-family: 'Roboto', sans-serif;
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
 }
+
+*::-webkit-scrollbar-track {
+  background: var(--dark-blue);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(245, 245, 245, 0.571);
+  border-radius: 20px;
+}
+
 a {
-  text-decoration: none;
-  color: black;
-}
-body {
-  width: 90vw;
-
-  background: #e9f4f8;
-}
-main {
-  width: 100vw;
-}
-
-header {
-  width: 100vw;
-  margin-bottom: 5rem;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2rem;
-  border-bottom: 0.1px solid #000000;
-  box-shadow: #9ecbeb;
-}
-
-nav .buttons-menu {
-  width: max-content;
-  height: fit-content;
-  text-align: center;
-  margin-left: 1rem;
-  /*border-bottom: 0.5px solid #000000;*/
-
-  background-color: #e9f4f8;
-
-  font: 400 17px Roboto;
-  line-height: 2rem;
-
-  color: #000000;
-}
-nav a.buttons-menu:hover {
-  background-color: #08565f;
   color: white;
-  cursor: pointer;
-  transition: 0.5s;
 }
-
-#goBackToLanding {
-  padding: 0.3rem;
-  background: #9ecbeb;
-  clip-path: circle();
+section{
+  margin: 0 5rem 8.5rem 5rem;
 }
-
-.titulo {
+h2{
   text-align: center;
-  margin-top: 5rem;
-
-  font: 300 35px Roboto;
-  line-height: 22px;
+  font: var(--font-h2);
+  color: whitesmoke;
   letter-spacing: 0.05em;
-
-  color: #000000;
+  margin-bottom: 6rem;
 }
 
-.footer {
-  width: 100vw;
-  display: inline-block;
-  margin-top: 6rem;
-  padding-left: 2rem;
-
-  text-align: center;
-  font: 200 20px Roboto;
-  color: #08565f;
-}
-
-@media (max-width: 720px) {
-  header nav {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  nav .buttons-menu {
-    width: 30rem;
-    font: 400 24px Roboto;
-  }
-  .footer {
-    margin-top: 0rem;
-  }
-}
-
-@media (max-width: 500px) {
-  nav .buttons-menu {
-    width: 20rem;
-    font: 400 24px Roboto;
-  }
-  .titulo {
-    font: 300 30px Roboto;
-  }
-}
-
-@media (max-width: 330px) {
-  nav .buttons-menu {
-    width: 16rem;
-    font: 400 20px Roboto;
-  }
-  .titulo {
-    font-size: 26px;
-  }
-  .footer {
-    font-size: 18px;
-    padding-left: 1rem;
-  }
-}

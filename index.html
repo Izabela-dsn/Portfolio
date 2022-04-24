@@ -5,108 +5,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Izabela da Silva Neves</title>
-    <meta
-      name="description"
-      content="Olá sou a Izabela estou estudando para ser desenvolvedora frontend, 
-      aqui você vai saber um tiquin sobre mim, ver os projetos que eu fiz e/ou estou fazendo."
+    <meta name="description" content="Olá sou a Izabela estou estudando para ser
+    desenvolvedora frontend, aqui você vai saber um "tiquin" sobre mim, ver os
+    projetos que eu fiz e/ou estou fazendo." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap"
+      rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="#about-me">Sobre mim</a>
         <a href="#projects">Meus projetos</a>
-        <a href="#contact">Entre em contato comigo</a>
+        <a href="#contact">Contato</a>
       </nav>
 
       <div class="banner">
-        <p>Olá, bem vindx ao meu portfólio</p>
-        <p>Sou a Izabela</p>
+        <div class="greeting">
+          <p>Olá, bem vindx ao meu portfólio</p>
+          <p>Sou a Izabela</p>
+        </div>
         <div class="logo"></div>
       </div>
-
-      <img src="" alt="" />
+      <img
+        class="go-down"
+        src="./assets/go-down.svg"
+        alt="setas indicando para rolar a página para baixo"
+      />
     </header>
 
     <main>
       <section id="about-me">
         <h2>Um pouco sobre mim</h2>
         <div class="card-about-me">
-          <img src="" alt="" />
+          <img src="./assets/humaaans.png" alt="figura de uma menina" />
           <p>
             Meu nome é Izabela da Silva Neves faço graduação na UFU e estou
             estudando para ser desenvolvedora Front-End.
             <br />
             Mostro aqui meus trabalhos que juntam minhas paixões por design e
-            tecnologia. Tenho 21 anos e muita vontade de explorar e aprender.
+            tecnologia.
+            <br />
+
+            Tenho 21 anos e muita vontade de explorar e aprender.
           </p>
         </div>
       </section>
 
       <section id="projects">
         <h2>Alguns projetos que fiz</h2>
-        <div class="slider">
+        <div class="projects_container">
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a
+              href="https://github.com/Izabela-dsn/Roses-Restaurant"
+              target="_blank"
+            >
+              <img src="./assets/roses.svg" alt="Roses logotipo" />
+              <p>Rose's Restaurant</p>
             </a>
           </div>
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a
+              href="https://github.com/Izabela-dsn/best-friend"
+              target="_blank"
+            >
+              <img src="./assets/best-friend.svg" alt="melhor amigo" />
+              <p>Best Friend</p>
             </a>
           </div>
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a href="https://github.com/Izabela-dsn/EdCar" target="_blank">
+              <img src="./assets/edcar-logo.svg" alt="EdCar" />
+              <p>EdCar</p>
             </a>
           </div>
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a href="https://github.com/Izabela-dsn/AluraDev" target="_blank">
+              <img src="./assets/aluradev.svg" alt="alura dev" />
+              <p>AluraDev</p>
             </a>
           </div>
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a href="https://github.com/Izabela-dsn/Aluraflix" target="_blank">
+              <img src="./assets/aluraflix.svg" alt="" />
+              <p>Aluraflix</p>
             </a>
           </div>
           <div class="projects list">
-            <a href="">
-              <img src="" alt="" />
-              <p></p>
+            <a href="https://github.com/Izabela-dsn/Portfolio" target="_blank">
+              <img src="./assets/portfolio.svg" alt="" />
+              <p>Portfólio</p>
             </a>
           </div>
         </div>
       </section>
 
       <section class="stacks">
-        <h2>Linguagens que já usei</h2>
-        <div class="stacks list">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <h2>Linguagens e ferramentas que já usei</h2>
+        <div class="stacks_container">
+          <div class="stacks list">
+            <img src="./assets/vscode-icons_file-type-html.svg" alt="HTML" />
+            <legend>HTML</legend>
+          </div>
+          <div class="stacks list">
+            <img src="./assets/vscode-icons_file-type-css.svg" alt="CSS" />
+            <legend>CSS</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-js-official.svg"
+              alt="Javascript"
+            />
+            <legend>Javascript</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-reactjs.svg"
+              alt="ReactJs"
+            />
+            <legend>ReactJS</legend>
+          </div>
+          <div class="stacks list">
+            <img src="./assets/vscode-icons_file-type-node.svg" alt="NodeJS" />
+            <legend>NodeJS</legend>
+          </div>
+          <div class="stacks list">
+            <img src="./assets/vscode-icons_file-type-mysql.svg" alt="MySQL" />
+            <legend>MySQL</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-pgsql.svg"
+              alt="PostgreSQL"
+            />
+            <legend>PostgreSQL</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-git.svg"
+              alt="Ferramenta Git"
+            />
+            <legend>Git</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-python.svg"
+              alt="Python"
+            />
+            <legend>Python</legend>
+          </div>
+          <div class="stacks list">
+            <img
+              src="./assets/vscode-icons_file-type-c3.svg"
+              alt="Linguagem C"
+            />
+            <legend>Linguagem C</legend>
+          </div>
+          <div class="stacks list">
+            <img src="./assets/vscode-icons_file-type-java.svg" alt="Java" />
+            <legend>Java</legend>
+          </div>
         </div>
       </section>
 
       <section id="contact">
         <h2>Quer conversar? É só entrar em contato comigo</h2>
         <div class="contact list">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <a href="https://www.linkedin.com/in/izabela-da-silva-neves/" target="_blank">
+            <img src="./assets/Linkedin.svg" alt="Linkedin" />
+          </a>
+          <a href="mailto:izabeladasilva10@gmail.com" target="_blank">
+            <img src="./assets/Email.svg" alt="Email" />
+          </a>
+          <a href="https://github.com/Izabela-dsn" target="_blank">
+            <img src="./assets/git.svg" alt="GitHub" />
+          </a>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>< Design e código feito por Izabela da Silva Neves /></p>
+      <p>&lt; Design e código feito por Izabela da Silva Neves &sol;&gt;</p>
     </footer>
   </body>
 </html>

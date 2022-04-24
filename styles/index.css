@@ -55,54 +55,110 @@ nav a {
 }
 
 .card-about-me p {
-    font: var(--font-p-card);
-    letter-spacing: 0.05em;
-    line-height: 1.5;
-    width: 60%;
-    padding: 2rem 3rem;
-    color: #000000;
-    background: var(--light-blue);
-    border-radius: 0.5rem;
+  font: var(--font-p-card);
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  width: 60%;
+  padding: 2rem 3rem;
+  color: #000000;
+  background: var(--light-blue);
+  border-radius: 0.5rem;
 }
 
-.projects_container{
+.projects_container {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem 1rem;
 }
 
-.projects.list a{
+.projects.list a {
   font: var(--font-a-projects);
   text-decoration: none;
   align-items: center;
 }
 
-.list a p{
+.projects.list a p {
   text-align: center;
 }
 
-.stacks_container{
+.stacks_container {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem 1rem
+  gap: 2rem 1rem;
 }
 
-.stacks.list legend{
+.stacks.list legend {
   color: white;
   text-align: center;
   font: var(--font-a-projects);
 }
 
-.contact.list{
+.contact.list {
   display: flex;
   justify-content: space-evenly;
 }
 
-footer p{
+footer p {
   text-align: center;
   color: whitesmoke;
   font: var(--font-p-footer);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 780px) {
+  .card-about-me {
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .card-about-me img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .card-about-me p {
+    font-size: 14px;
+    width: 60%;
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 500px) {
+  header{
+    margin-bottom: 5rem;
+  }
+  nav a{
+    font-size: 16px;
+  }
+  .banner
+  {
+    flex-direction: column;
+    margin: 1rem 0 2rem 0;
+  }
+  .greeting {
+    margin: 1rem 0 1rem 1rem;
+    font-size: 20px;
+  }
+  .card-about-me {
+    flex-direction: column;
+    margin: 0;
+    gap: 1rem;
+  }
+  .projects_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem .5rem;
+  }
+  .stacks_container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contact.list{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .projects.list a img,
+  .contact.list a img{
+    width: 90%;
+  }
 }

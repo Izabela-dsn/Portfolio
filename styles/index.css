@@ -49,11 +49,6 @@ nav a {
   margin: 0 5rem;
 }
 
-.card-about-me img {
-  width: 16rem;
-  height: 16rem;
-}
-
 .card-about-me p {
   font: var(--font-p-card);
   letter-spacing: 0.05em;

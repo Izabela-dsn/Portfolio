@@ -1,6 +1,6 @@
 # Portfólio
 
-## Do que foi feito? 	:eyes:
+## Do que foi feito? 	👀
 * HTML
 * CSS
 

@@ -1,159 +1,47 @@
-header {
-  margin-bottom: 7rem;
-}
-nav {
-  padding: 2.5rem 0;
+main {
+  margin: 0 6.25rem;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 6.25rem;
 }
-nav a {
-  font: var(--font-a-nav);
-}
-
-.banner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2rem 0 5rem 0;
-}
-
-.greeting {
-  margin: 4rem 0 5rem 8rem;
-}
-
-.greeting p {
-  text-align: center;
-  color: whitesmoke;
-  font: var(--font-p-banner);
-  letter-spacing: 0.05em;
-}
-
 .logo {
-  width: 40%;
-  height: 50vh;
-  background-image: url(../assets/logo-banner.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  font: var(--font-logo);
+  color: var(--dark-grey);
 }
-
-.go-down {
-  display: flex;
-  margin: 0 auto;
-}
-
-.card-about-me {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5rem;
+  border-bottom: 2px solid #b0d4ff;
+  padding: 0 5rem;
 }
 
-.card-about-me p {
-  font: var(--font-p-card);
-  letter-spacing: 0.05em;
-  line-height: 1.5;
-  width: 60%;
-  padding: 2rem 3rem;
-  color: #000000;
-  background: var(--light-blue);
-  border-radius: 0.5rem;
-}
-
-.projects_container {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem 1rem;
-}
-
-.projects.list a {
-  font: var(--font-a-projects);
-  text-decoration: none;
-  align-items: center;
-}
-
-.projects.list a p {
-  text-align: center;
-}
-
-.stacks_container {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem 1rem;
-}
-
-.stacks.list legend {
-  color: white;
-  text-align: center;
-  font: var(--font-a-projects);
-}
-
-.contact.list {
+nav ul {
   display: flex;
-  justify-content: space-evenly;
+}
+nav ul li {
+  padding: 0 1rem;
 }
 
-footer p {
-  text-align: center;
-  color: whitesmoke;
-  font: var(--font-p-footer);
-  margin-bottom: 0.5rem;
+nav ul a {
+  color: var(--dark-grey);
+  font: var(--font-a-nav);
 }
 
-@media (max-width: 780px) {
-  .card-about-me {
-    justify-content: space-evenly;
-    margin: 0;
-  }
-
-  .card-about-me img {
-    width: 8rem;
-    height: 8rem;
-  }
-
-  .card-about-me p {
-    font-size: 14px;
-    width: 60%;
-    padding: 1rem 2rem;
-  }
+#introduction {
+  white-space: pre-line;
+  text-align: left;
+  margin: auto;
+  /* background-color: black; */
+  max-width: 725px;
 }
-@media (max-width: 500px) {
-  header{
-    margin-bottom: 5rem;
-  }
-  nav a{
-    font-size: 16px;
-  }
-  .banner
-  {
-    flex-direction: column;
-    margin: 1rem 0 2rem 0;
-  }
-  .greeting {
-    margin: 1rem 0 1rem 1rem;
-    font-size: 20px;
-  }
-  .card-about-me {
-    flex-direction: column;
-    margin: 0;
-    gap: 1rem;
-  }
-  .projects_container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem .5rem;
-  }
-  .stacks_container{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .contact.list{
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .projects.list a img,
-  .contact.list a img{
-    width: 90%;
-  }
+
+.first-title {
+  font: var(--font-title);
+  color: var(--dark-grey);
+}
+
+.secondary-title {
+  font: var(--font-secondary-title);
+  color: var(--dark-grey);
 }

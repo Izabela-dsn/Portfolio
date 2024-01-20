@@ -1,0 +1,41 @@
+#lines {
+  position: relative;
+  top: 15px;
+}
+#lineh2 {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 5px;
+  background: #b5a8ec;
+  animation: lineH 5s 0.5s infinite linear;
+}
+#lineh3 {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 5px;
+  background: #b0d4ff;
+  animation: lineH 5s 1.5s infinite linear;
+}
+#lineh4 {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 5px;
+  background: #f2d0dd;
+  animation: lineH 5s 1s infinite linear;
+}
+@keyframes lineH {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}

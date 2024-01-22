@@ -16,12 +16,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,600&family=Libre+Franklin&family=Sue+Ellen+Francisco&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Libre+Franklin&family=Sue+Ellen+Francisco&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/lines.css" />
+    <link rel="stylesheet" href="styles/square.css" />
   </head>
   <body>
     <header>
@@ -48,21 +49,21 @@
       </div>
 
       <div id="about-me">
-        <h2>Um pouco sobre mim...</h2>
+        <h2 class="section-title">Um pouco sobre mim...</h2>
         <div class="section-one">
           <div class="squares">
             <div class="square-one"></div>
             <div class="square-two">
-              <img src="assets/Humaaanss.svg" alt="" />
+              <img src="assets/Humaaans.svg" alt="" />
             </div>
           </div>
-          <section>
+          <div class="information">
             <p>
               Faço graduação de Engenharia de Computação na Universidade Federal
-              de Uberlândia. Na minha carreira profissional estou sempre em
-              busca de oportunidades no desenvolvimento Front-end.
+              de Uberlândia. <br />Na minha carreira profissional estou sempre
+              em busca de oportunidades no desenvolvimento Front-end.
             </p>
-          </section>
+          </div>
         </div>
         <div class="section-two">
           <div class="squares">
@@ -71,16 +72,27 @@
               <img src="assets/figma.svg" alt="" />
             </div>
           </div>
-          <section>
+          <div class="information">
             <p>
-              Estou sempre buscando unir meus dois tópicos preferidos, o design
-              e a tecnologia para proporcionar uma boa experiência para as
-              pessoas.
+              Procuro unir meus dois tópicos preferidos, o design e a tecnologia
+              para proporcionar uma boa experiência para as pessoas.
             </p>
-          </section>
+          </div>
         </div>
       </div>
-      <div id="projects"></div>
+      <div id="projects">
+        <h2 class="section-title">
+          Agora deixa eu te mostrar alguns projetos que eu fiz...
+        </h2>
+        <div class="grid-projects">
+          <a href=""><img src="assets/roses.svg" alt="" /></a
+          ><a href=""><img src="assets/best-friend.svg" alt="" /></a
+          ><a href=""><img src="assets/portfolio.svg" alt="" /></a
+          ><a href=""><img src="assets/aluradev.svg" alt="" /></a
+          ><a href=""><img src="assets/aluraflix.svg" alt="" /></a
+          ><a href=""><img src="assets/edcar-logo.svg" alt="" /></a>
+        </div>
+      </div>
       <div id="contact"></div>
     </main>
     <footer></footer>

@@ -1,0 +1,22 @@
+.squares div:first-child {
+  position: absolute;
+}
+
+.squares div:last-child {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.square-one,
+.square-two {
+  width: 248px;
+  height: 184px;
+  border-radius: 5px;
+}
+
+.square-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

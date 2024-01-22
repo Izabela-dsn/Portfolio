@@ -45,3 +45,70 @@ nav ul a {
   font: var(--font-secondary-title);
   color: var(--dark-grey);
 }
+
+.section-title {
+  font: var(--font-title-sections);
+  color: var(--dark-grey);
+}
+
+#about-me {
+  display: grid;
+  gap: 6.25rem;
+}
+
+#about-me p {
+  font: var(--font-p-card);
+  color: var(--dark-grey);
+  padding: 0 1rem;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+  color: #020202;
+}
+
+.section-one,
+.section-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 8rem;
+}
+
+.section-one .square-one,
+.section-two .square-one {
+  background-color: var(--pastel-blue-light);
+}
+
+.section-one .square-two {
+  background-color: var(--pastel-purple);
+}
+
+.section-one .information,
+.section-two .information {
+  width: 500px;
+  height: 204px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--pastel-blue-light);
+}
+
+.section-one img {
+  width: 100%;
+}
+
+.section-two {
+  margin: 0 11rem;
+}
+
+.section-two .information {
+  width: 400px;
+}
+
+.section-two img {
+  width: 40%;
+}
+
+.section-two .square-two {
+  background-color: var(--pastel-pink);
+}

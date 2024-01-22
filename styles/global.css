@@ -8,19 +8,18 @@
   --dark-grey: #2e394a;
 
   --font-logo: 400 50px "Sue Ellen Francisco", cursive;
+  --font-p-footer: 400 30px "Sue Ellen Francisco", cursive;
   --font-title: 600 italic 65px "Cabin", sans-serif;
   --font-secondary-title: 400 30px "Cabin", sans-serif;
-  --font-title-sections: 400 18px "Cabin", sans-serif;
-  --font-a-nav: 400 20px "Cabin", sans-serif;
+  --font-a-nav: 400 24px "Cabin", sans-serif;
+  --font-title-sections: 500 22px "Cabin", sans-serif;
   --font-p-card: 400 16px "Libre Franklin", sans-serif;
   /* --font-a-projects: 300 16px "Space Grotesk", sans-serif; */
-  --font-p-footer: 400 30px "Sue Ellen Francisco", cursive;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--pastel-blue-dark);
   scroll-behavior: smooth;
 
   /* scrollbar */
@@ -43,6 +42,9 @@
   /* background-color: rgba(245, 245, 245, 0.571); */
   border-radius: 20px;
 }
+html {
+  background-color: var(--pastel-blue-dark);
+}
 
 a {
   text-decoration: none;
@@ -54,16 +56,6 @@ a:hover {
 
 li {
   list-style-type: none;
-}
-section {
-  margin: 0 5rem 8.5rem 5rem;
-}
-h2 {
-  text-align: center;
-  font: var(--font-h2);
-  color: whitesmoke;
-  letter-spacing: 0.05em;
-  margin-bottom: 6rem;
 }
 
 @media (max-width: 500px) {

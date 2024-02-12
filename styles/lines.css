@@ -1,29 +1,32 @@
 #lines {
   position: relative;
-  top: 15px;
+  /* top: 10px; */
 }
 #lineh2 {
   position: absolute;
   left: 0;
   top: 0px;
-  height: 5px;
+  height: 10px;
   background: #b5a8ec;
   animation: lineH 5s 0.5s infinite linear;
+  border-radius: 3px;
 }
 #lineh3 {
   position: absolute;
   left: 0;
   top: 10px;
-  height: 5px;
+  height: 10px;
   background: #b0d4ff;
   animation: lineH 5s 1.5s infinite linear;
+  border-radius: 3px;
 }
 #lineh4 {
   position: absolute;
   right: 0;
   top: 20px;
-  height: 5px;
+  height: 10px;
   background: #f2d0dd;
+  border-radius: 3px;
   animation: lineH 5s 1s infinite linear;
 }
 @keyframes lineH {

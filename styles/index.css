@@ -49,6 +49,11 @@ nav ul a {
 .section-title {
   font: var(--font-title-sections);
   color: var(--dark-grey);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--pastel-blue-light);
+  width: fit-content;
 }
 
 #about-me {
@@ -59,7 +64,7 @@ nav ul a {
 #about-me p {
   font: var(--font-p-card);
   color: var(--dark-grey);
-  padding: 0 1rem;
+  padding: 0 2.5rem;
   text-align: center;
   line-height: 20px;
   letter-spacing: 0.8px;
@@ -111,4 +116,18 @@ nav ul a {
 
 .section-two .square-two {
   background-color: var(--pastel-pink);
+}
+
+#projects {
+  display: grid;
+  gap: 6.25rem;
+}
+
+.grid-projects {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  justify-content: center;
+  row-gap: 3rem;
+  column-gap: 3rem;
 }

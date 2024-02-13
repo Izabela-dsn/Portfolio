@@ -58,7 +58,7 @@ li {
   list-style-type: none;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   section {
     margin: 0 1rem 4rem 1rem;
   }
@@ -66,4 +66,4 @@ li {
     margin-bottom: 4rem;
     font-size: 24px;
   }
-}
+} */

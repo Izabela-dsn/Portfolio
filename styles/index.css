@@ -27,7 +27,7 @@ nav ul li {
 nav ul a {
   color: var(--dark-grey);
   font: var(--font-a-nav);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #introduction {
@@ -40,7 +40,7 @@ nav ul a {
 .first-title {
   font: var(--font-title);
   color: var(--dark-grey);
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .secondary-title {
@@ -56,9 +56,8 @@ nav ul a {
   text-underline-offset: 0.15rem;
   text-decoration-style: wavy;
   text-decoration-color: var(--pastel-blue-light);
-  width: fit-content;
-  font-size: 18px;
-  margin-bottom: 2.5rem;
+  font-size: 16px;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -75,6 +74,11 @@ nav ul a {
   line-height: 20px;
   letter-spacing: 0.8px;
   color: #020202;
+  font-size: 12px;
+}
+
+#about-me .squares {
+  margin-left: -13rem;
 }
 
 .section-one,
@@ -83,6 +87,8 @@ nav ul a {
   flex-direction: column;
   gap: 15rem;
   margin: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-one .square-one,
@@ -93,11 +99,15 @@ nav ul a {
   background-color: var(--pastel-purple);
 }
 
+.section-one .information {
+  margin-bottom: 2.5rem;
+}
+
 .section-one .information,
 .section-two .information {
   width: 260px;
-  height: 300px;
-  padding: 0.1rem;
+  height: fit-content;
+  padding: 2rem 0.1rem;
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -135,6 +145,15 @@ nav ul a {
   flex-direction: column;
   gap: 15rem;
   margin: 0 0 20rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts .squares {
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-left: -7rem;
 }
 
 .contacts .square-one {
@@ -150,4 +169,154 @@ footer {
   text-align: center;
   font: var(--font-p-footer);
   font-size: 22px;
+}
+
+@media (min-width: 620px) {
+  main {
+    margin: 0 5rem;
+  }
+  .logo {
+    font-size: 35px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
+  nav ul li {
+    padding: 0 0.5rem;
+  }
+  nav ul a {
+    font-size: 20px;
+  }
+
+  .first-title {
+    font-size: 40px;
+  }
+
+  .secondary-title {
+    font-size: 24px;
+  }
+
+  #introduction {
+    max-width: fit-content;
+    text-align: start;
+  }
+  .section-title {
+    text-align: start;
+    font-size: 24px;
+  }
+
+  #about-me p {
+    font-size: 14px;
+  }
+
+  #about-me .squares {
+    margin-left: 0rem;
+  }
+
+  .section-one,
+  .section-two {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .section-one .information,
+  .section-two .information {
+    width: 100%;
+    height: 175px;
+  }
+  .section-two .information {
+    width: 50%;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    row-gap: 3rem;
+  }
+
+  .tecnologies {
+    grid-template-columns: auto auto auto;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .contacts > a {
+    margin: 0 2rem;
+  }
+
+  .contacts a:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  footer {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin: 0 8rem;
+  }
+  .logo {
+    font-size: 50px;
+  }
+  nav ul a {
+    font-size: 24px;
+  }
+  .first-title {
+    font-size: 65px;
+  }
+
+  .secondary-title {
+    font-size: 35px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  #about-me p {
+    font-size: 16px;
+    line-height: 29.5px;
+    letter-spacing: 5%;
+  }
+
+  .section-one .information,
+  .section-two .information {
+    padding: 4rem 2rem;
+  }
+
+  .section-one .information {
+    width: 60%;
+  }
+
+  .projects {
+    grid-template-columns: auto auto auto;
+  }
+
+  .tecnologies {
+    grid-template-columns: auto auto auto auto;
+    row-gap: 3rem;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacts a:nth-child(3) {
+    display: block;
+    margin: 0 0 0 1rem;
+    /* align-items: center;
+    justify-content: center; */
+  }
 }

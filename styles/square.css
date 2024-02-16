@@ -1,3 +1,16 @@
+.square-one,
+.square-two {
+  width: 200px;
+  height: 155px;
+  border-radius: 5px;
+}
+
+.square-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .squares div:first-child {
   position: absolute;
 }
@@ -6,17 +19,4 @@
   position: absolute;
   margin-top: 20px;
   margin-left: 18px;
-}
-
-.square-one,
-.square-two {
-  width: 240px;
-  height: 184px;
-  border-radius: 5px;
-}
-
-.square-two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

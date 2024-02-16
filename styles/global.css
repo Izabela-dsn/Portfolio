@@ -24,13 +24,14 @@
 
   /* scrollbar */
   /* Works on Firefox */
-  scrollbar-width: thin;
-  scrollbar-color: var(--pastel-blue-dark);
+  scrollbar-width: auto;
+  scrollbar-color: var(--pastel-blue-dark) var(--pastel-pink);
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 10px;
+  width: 12px;
+  border-radius: 10px;
 }
 
 *::-webkit-scrollbar-track {
@@ -39,9 +40,9 @@
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--pastel-pink);
-  /* background-color: rgba(245, 245, 245, 0.571); */
-  border-radius: 20px;
+  border-radius: 10px;
 }
+
 html {
   background-color: var(--pastel-blue-dark);
 }
@@ -57,13 +58,3 @@ a:hover {
 li {
   list-style-type: none;
 }
-
-/* @media (max-width: 500px) {
-  section {
-    margin: 0 1rem 4rem 1rem;
-  }
-  h2 {
-    margin-bottom: 4rem;
-    font-size: 24px;
-  }
-} */
